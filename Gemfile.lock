@@ -76,6 +76,10 @@ GEM
     concurrent-ruby (1.3.3)
     crass (1.0.6)
     date (3.3.4)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.13.0)
     ffi (1.17.0)
     globalid (1.2.1)
@@ -181,6 +185,7 @@ DEPENDENCIES
   bcrypt (~> 3.1, >= 3.1.12)
   bootsnap (>= 1.4.4)
   byebug
+  dotenv-rails
   jwt (~> 2.5)
   listen (~> 3.3)
   pg (~> 1.1)
