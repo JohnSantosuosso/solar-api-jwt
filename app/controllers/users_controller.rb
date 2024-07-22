@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     user = User.create!(user_params)
     @token = encode_token(user_id: user.id)
     render json: {
-        user: UserSerializer.new(user), 
+        user: @user, 
         token: @token
     }, status: :created
   end
